@@ -1,25 +1,29 @@
 import React, { useState } from "react";
 import logo_bluesky_landing from "../../assets/images/logo_bluesky_landing.svg";
+import call3 from "../../assets/images/call3.svg";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 shadow-md dark:bg-gray-900">
-      <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+    <div className="bg-white border border-b-gray-100 w-full px-4 lg:px-6 py-2.5 ">
+      <div className="flex flex-wrap justify-between items-center w-full">
         <a className="flex items-center">
           <img
             src={logo_bluesky_landing}
-            className="mr-3 h-6 sm:h-9"
+            className="mr-3 lg:w-[150px] lg:h-[60px] w-[170px] h-[48.8px]"
             alt="Flowbite React Logo"
           />
         </a>
         <div className="flex items-center md:order-2">
           <button
             type="button"
-            className="text-white hidden lg:block md:block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            className="text-white hidden lg:block md:block font-medium bg-blue-sky-gradient1 rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 lg:w-56 lg:rounded-[30px] h-11"
           >
-            Get started
+            <div className="w-full flex items-center justify-center gap-3">
+              <img src={call3} alt="call3" />
+              <p> Hotline:096 859 68 59</p>
+            </div>
           </button>
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -30,7 +34,7 @@ export default function Header() {
           >
             <span className="sr-only">Open main menu</span>
             <svg
-              className="w-6 h-6"
+              className="w-[36px] h-[36px]"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +58,7 @@ export default function Header() {
                 className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                 aria-current="page"
               >
-                Home
+                Trang chủ
               </a>
             </li>
             <li>
@@ -62,7 +66,7 @@ export default function Header() {
                 href="#"
                 className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                About
+                Về chúng tôi
               </a>
             </li>
             <li>
@@ -70,7 +74,7 @@ export default function Header() {
                 href="#"
                 className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Services
+                Dịch vụ
               </a>
             </li>
             <li>
@@ -78,7 +82,7 @@ export default function Header() {
                 href="#"
                 className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Pricing
+                Tuyển dụng
               </a>
             </li>
             <li>
@@ -86,12 +90,12 @@ export default function Header() {
                 href="#"
                 className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Contact
+                Liên hệ
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
   );
 }
