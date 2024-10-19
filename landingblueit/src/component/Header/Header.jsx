@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <div className="bg-white border border-b-gray-100 w-full px-4 lg:px-6 py-2.5 ">
-      <div className="flex flex-wrap justify-between items-center w-full">
+      <div className="flex flex-wrap justify-around items-center w-full">
         <a className="flex items-center">
           <img
             src={logo_bluesky_landing}
@@ -55,7 +55,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
                 aria-current="page"
               >
                 Trang chủ
@@ -64,7 +64,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
               >
                 Về chúng tôi
               </a>
@@ -72,7 +72,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
               >
                 Dịch vụ
               </a>
@@ -80,7 +80,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
               >
                 Tuyển dụng
               </a>
@@ -88,7 +88,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
               >
                 Liên hệ
               </a>

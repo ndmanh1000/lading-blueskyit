@@ -1,6 +1,7 @@
 import Header from "./component/Header/Header";
 import Banner from "./component/Banner/Banner";
 import TopHead from "./component/Top-head/TopHead";
+import Partner from "./component/Partner/Partner";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className=" w-full p-3">
         <Banner />
       </div>
+      <Partner />
     </div>
   );
 }
