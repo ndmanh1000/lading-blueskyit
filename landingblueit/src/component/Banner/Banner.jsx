@@ -12,14 +12,14 @@ import gay_lg from "../../assets/images/gay_lg.png";
 
 export default function Banner() {
   return (
-    <div className=" w-full bg-gray-500 rounded-[24px] mx-auto bg-cover bg-center bg-no-repeat lg:px-52  ">
+    <div className=" w-full bg-gray-500 rounded-[24px] mx-auto bg-cover bg-center bg-no-repeat container mt-20 lg:mt-32  ">
       {/* <div
         className="hidden md:block bg-cover lg:rounded-[30px] bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${bg_lg})`,
         }}
       ></div> */}
-      <div className="p-1 flex flex-col gap-4 items-center md:flex-row lg:flex-row w-full lg:px-6 ">
+      <div className="p-1 flex flex-col gap-4 items-center md:flex-row lg:flex-row w-full lg:px-6">
         <div className=" h-auto flex flex-col gap-4 lg:gap-6 p-2 text-white relative lg:left-[70px]">
           <div className="lg:w-[45rem] w-[22rem]">
             <p>CHÀO MỪNG BẠN ĐẾN VỚI BLUESKYIT</p>

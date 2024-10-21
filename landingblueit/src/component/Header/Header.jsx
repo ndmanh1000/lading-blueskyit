@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <div className="bg-white border border-b-gray-100 w-full px-4 lg:px-6 py-2.5 ">
-      <div className="flex flex-wrap justify-around items-center w-full">
+      <div className="flex flex-wrap justify-between items-center w-full">
         <a className="flex items-center">
           <img
             src={logo_bluesky_landing}
