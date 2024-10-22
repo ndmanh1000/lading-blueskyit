@@ -13,79 +13,156 @@ import { Navigation, Pagination } from "swiper";
 export default function Slides() {
   return (
     <div className="w-full lg:pt-4">
-      <Swiper
-        spaceBetween={20}
-        slidesPerView={7}
-        breakpoints={{
-          sm: {
-            slidesPerView: 4,
-          },
-          lg: {
-            slidesPerView: 10,
-          },
-        }}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={vinh_phu} alt="Vinh Phu" className="object-cover" />
-          </div>
-        </SwiperSlide>
+      <div className="block lg:hidden">
+        <Swiper
+          spaceBetween={20}
+          slidesPerView={2}
+          breakpoints={{
+            sm: {
+              slidesPerView: 7,
+            },
+            lg: {
+              slidesPerView: 10,
+            },
+          }}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={vinh_phu} alt="Vinh Phu" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={bluerise} alt="Bluerise" className="object-cover" />
-          </div>
-        </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bluerise} alt="Bluerise" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={keyavo} alt="Keyavo" className="object-cover" />
-          </div>
-        </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={keyavo} alt="Keyavo" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={bigmax} alt="Bigmax" className="object-cover" />
-          </div>
-        </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={keyavo} alt="Keyavo" className="object-cover" />
-          </div>
-        </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={keyavo} alt="Keyavo" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={vinh_phu} alt="Vinh Phu" className="object-cover" />
-          </div>
-        </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={vinh_phu} alt="Vinh Phu" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={bigmax} alt="Bigmax" className="object-cover" />
-          </div>
-        </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={bigmax} alt="Bigmax" className="object-cover" />
-          </div>
-        </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={bigmax} alt="Bigmax" className="object-cover" />
-          </div>
-        </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
-            <img src={bigmax} alt="Bigmax" className="object-cover" />
-          </div>
-        </SwiperSlide>
-      </Swiper>
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      <div className="hidden lg:block">
+        <Swiper
+          spaceBetween={20}
+          slidesPerView={7}
+          breakpoints={{
+            sm: {
+              slidesPerView: 7,
+            },
+            lg: {
+              slidesPerView: 10,
+            },
+          }}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={vinh_phu} alt="Vinh Phu" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bluerise} alt="Bluerise" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={keyavo} alt="Keyavo" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={keyavo} alt="Keyavo" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={vinh_phu} alt="Vinh Phu" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-[9.9rem] h-[4rem] shadow-custom flex items-center justify-center lg:w-[12rem] lg:h-[5rem]">
+              <img src={bigmax} alt="Bigmax" className="object-cover" />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </div>
   );
 }

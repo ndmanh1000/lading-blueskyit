@@ -8,6 +8,8 @@ import Servic from "./component/Servic/Servic";
 import Project from "./component/Project/Project";
 import Procedure from "./component/Procedure/Procedure";
 import Technology from "./component/Technology/Technology";
+import FeedBack from "./component/Feed-Back/FeedBack";
+import Staff from "./component/Staff/Staff";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
       <Project />
       <Procedure />
       <Technology />
+      <FeedBack />
+      <Staff />
     </div>
   );
 }
