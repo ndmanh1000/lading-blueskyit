@@ -37,7 +37,7 @@ export default function Tabss() {
 
   return (
     <div className="w-full mx-auto cursor-pointer">
-      <div className="grid grid-cols-2 lg:grid-cols-9 p-2 cursor-pointer w-full rounded-lg bg-[#dbf4ff] lg:h-[4.875rem] items-center lg:justify-between justify-between">
+      <div className="grid grid-cols-2 lg:grid-cols-9 p-2 cursor-pointer w-full rounded-lg bg-[#dbf4ff] lg:h-[4.875rem] items-center lg:flex lg:items-center lg:justify-between justify-between">
         <button
           className={`py-2 px-4 text-sm font-medium cursor-pointer rounded-[8px] ${
             activeTab === 0
