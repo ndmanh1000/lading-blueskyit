@@ -12,13 +12,12 @@ import gay_lg from "../../assets/images/gay_lg.png";
 
 export default function Banner() {
   return (
-    <div className=" w-full bg-gray-500 rounded-[24px] mx-auto bg-cover bg-center bg-no-repeat container mt-20 lg:mt-32  ">
-      {/* <div
-        className="hidden md:block bg-cover lg:rounded-[30px] bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(${bg_lg})`,
-        }}
-      ></div> */}
+    <div
+      className=" w-full rounded-[24px] mx-auto p-3 bg-cover bg-center bg-no-repeat container mt-20 lg:mt-32  "
+      style={{
+        backgroundImage: `url(${bg_lg})`,
+      }}
+    >
       <div className="p-1 flex flex-col gap-4 items-center md:flex-row lg:flex-row w-full lg:px-6">
         <div className=" h-auto flex flex-col gap-4 lg:gap-6 p-2 text-white relative lg:left-[70px]">
           <div className="lg:w-[45rem] w-[22rem]">
@@ -65,15 +64,15 @@ export default function Banner() {
           {/*  */}
 
           <div className="flex items-center justify-around shadow-custom1 w-[22rem] h-[4.5625rem] lg:absolute lg:bottom-[245px] lg:left-[-120px] bg-white rounded-[36px] lg:w-[14.8125rem] lg:z-20">
-            <div className="flex items-center lg:items-start justify-center flex-col gap-1">
-              <p className="text-[#073C7A] text-[1.5rem] font-normal left-[45xp]">
+            <div className="flex items-center lg:items-start justify-center flex-col gap-1 ">
+              <p className="text-[#073C7A] text-[1.5rem] font-normal  left-[60px]">
                 68K+
               </p>
               <p className="text-[0.875rem] font-normal text-[#333]">
                 Khách hàng hài lòng
               </p>
             </div>
-            <div className="bg-[#3DB72D] w-[3rem] h-[3rem] left-[26px] flex items-center justify-center rounded-full">
+            <div className="bg-[#3DB72D] w-[3rem] h-[3rem] left-[26px] flex items-center justify-center rounded-full animate-bounce">
               <img src={user_switch} alt="user" />
             </div>
           </div>
@@ -92,7 +91,7 @@ export default function Banner() {
           {/*  */}
           {/*  */}
           <div className="flex items-center justify-around shadow-custom1 lg:absolute lg:bottom-[60px] lg:right-[147px] w-[22rem] h-[4.5625rem] bg-white rounded-[36px] lg:w-[15.8125rem] lg:z-20">
-            <div className="bg-[#4CA8FF] w-[3rem] h-[3rem] flex items-center justify-center rounded-full right-[23px]">
+            <div className="bg-[#4CA8FF] w-[3rem] h-[3rem] flex items-center justify-center rounded-full right-[23px] animate-bounce">
               <img src={crown} alt="crown" />
             </div>
             <div className="flex items-center justify-center flex-col gap-1 right-[52px]">
@@ -100,13 +99,18 @@ export default function Banner() {
                 Giá trị doanh nghiệp
               </p>
               <p className="text-[1.5rem] font-normal text-[#073C7A] flex">
-                1.000.000$ <img src={arrow_up} alt="arrow_up" />
+                1.000.000${" "}
+                <img src={arrow_up} alt="arrow_up" className="animate-bounce" />
               </p>
             </div>
           </div>
           <div>
             <img src={gay} alt="gay" className="block lg:hidden" />
-            <img src={gay_lg} alt="gay_lg" className="hidden lg:block" />
+            <img
+              src={gay_lg}
+              alt="gay_lg"
+              className="hidden lg:block relative bottom-[-12px]"
+            />
           </div>
           {/*  */}
         </div>

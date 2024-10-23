@@ -3,13 +3,16 @@ import customer_service from "../../../assets/images/customer_service.svg";
 
 export default function Servic6() {
   return (
-    <div className="w-full h-[28.125rem] lg:w-1/3 lg:h-[22rem] flex flex-col gap-3 border border-[#E2E2E2] bg-white rounded-[8px] px-[1.5rem] py-[1.62rem]">
-      <div>
+    <div className="w-full h-[28.125rem] lg:w-1/3 lg:h-[24rem] flex flex-col gap-3 border border-[#E2E2E2] bg-white rounded-[8px] px-[1.5rem] py-[1.62rem]">
+      <div className="flex items-center justify-between">
         <img
           src={customer_service}
           alt="customer_service"
           className="w-[3rem] h-[3rem]"
         />
+        <p className="text-[4rem] opacity-80 font-semibold text-[#F1F0F0] ">
+          06
+        </p>
       </div>
       <div className="flex flex-col gap-3">
         <div className="lg:h-[3rem]">

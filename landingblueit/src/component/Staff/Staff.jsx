@@ -2,7 +2,7 @@ import SlideStaff from "./Slide_Staff";
 
 export default function Staff() {
   return (
-    <div className="w-full container mx-auto p-3 pt-10">
+    <div className="w-full pt-10">
       <div className="flex items-center justify-center gap-2">
         <div className="border border-[#27C6FF] w-[7.125rem] h-10 rounded-md bg-[#27C6FF] flex items-center justify-center">
           <p className="text-[1.125rem] font-semibold text-white">BlueSkyIT</p>

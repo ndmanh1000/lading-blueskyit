@@ -2,9 +2,12 @@ import check2 from "../../../assets/images/check2.svg";
 import data from "../../../assets/images/data.svg";
 export default function Servic2() {
   return (
-    <div className="w-full h-[24.75rem] lg:w-1/3 lg:h-[22rem] flex flex-col gap-3 border border-[#E2E2E2] bg-white rounded-[8px] px-[1.5rem] py-[1.62rem]">
-      <div>
+    <div className="w-full h-[25.75rem] lg:w-1/3 lg:h-[24rem] flex flex-col gap-3 border border-[#E2E2E2] bg-white rounded-[8px] px-[1.5rem] py-[1.62rem]">
+      <div className="flex items-center justify-between">
         <img src={data} alt="data" className="w-[3rem] h-[3rem]" />
+        <p className="text-[4rem] opacity-80 font-semibold text-[#F1F0F0] ">
+          02
+        </p>
       </div>
       <div className="flex flex-col gap-3">
         <div className="lg:h-[3rem]">

@@ -11,6 +11,7 @@ import staff3 from "../../assets/images/staff3.png";
 import staff4 from "../../assets/images/staff4.png";
 
 import staff5 from "../../assets/images/staff5.png";
+import staff6 from "../../assets/images/staff6.png";
 import fbb from "../../assets/images/fbb.png";
 import maill from "../../assets/images/maill.svg";
 import telegram from "../../assets/images/tele.svg";
@@ -196,12 +197,41 @@ export default function Slides() {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="border border-[#B7E7FF] bg-[#B7E7FF] w-full rounded-[24px] h-[29.375rem] px-[1.88rem] py-[1.88rem]">
+              <div className="flex items-center justify-center">
+                <img
+                  src={staff5}
+                  alt="st2"
+                  className=" rounded-[8px] w-[15rem] h-[17.5rem] object-cover"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center gap-2">
+                <p className="text-[1.25rem] font-semibold text-[#033F6A]">
+                  Phạm Anh Tuấn
+                </p>
+                <p>Phó giám đốc kỹ thuật-Co.Founder</p>
+                <div className="flex flex-row items-center justify-center gap-3">
+                  <div>
+                    <img src={fbb} alt="fbb" />
+                  </div>
+                  <div className="w-10 h-10 border border-white bg-white flex items-center justify-center rounded-full">
+                    <img src={maill} alt="maill" />
+                  </div>
+                  <img src={telegram} alt="tele" />
+                  <div className="w-10 h-10 border border-white bg-white flex items-center justify-center rounded-full">
+                    <img src={zalo} alt="zalo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
       <div className="hidden lg:block">
         <Swiper
           spaceBetween={20}
-          slidesPerView={4}
+          slidesPerView={5}
           breakpoints={{
             sm: {
               slidesPerView: 7,
@@ -332,6 +362,35 @@ export default function Slides() {
             </div>
           </SwiperSlide>
 
+          <SwiperSlide>
+            <div className="border border-[#B7E7FF] bg-[#B7E7FF] w-full rounded-[24px] h-[29.375rem] px-[1.88rem] py-[1.88rem]">
+              <div className="flex items-center justify-center">
+                <img
+                  src={staff5}
+                  alt="st2"
+                  className=" rounded-[8px] w-[15rem] h-[17.5rem] object-cover"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center gap-2">
+                <p className="text-[1.25rem] font-semibold text-[#033F6A]">
+                  Phạm Anh Tuấn
+                </p>
+                <p>Phó giám đốc kỹ thuật-Co.Founder</p>
+                <div className="flex flex-row items-center justify-center gap-3">
+                  <div>
+                    <img src={fbb} alt="fbb" />
+                  </div>
+                  <div className="w-10 h-10 border border-white bg-white flex items-center justify-center rounded-full">
+                    <img src={maill} alt="maill" />
+                  </div>
+                  <img src={telegram} alt="tele" />
+                  <div className="w-10 h-10 border border-white bg-white flex items-center justify-center rounded-full">
+                    <img src={zalo} alt="zalo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
           <SwiperSlide>
             <div className="border border-[#B7E7FF] bg-[#B7E7FF] w-full rounded-[24px] h-[29.375rem] px-[1.88rem] py-[1.88rem]">
               <div className="flex items-center justify-center">

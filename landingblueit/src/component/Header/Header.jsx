@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import logo_bluesky_landing from "../../assets/images/logo_bluesky_landing.svg";
 import call3 from "../../assets/images/call3.svg";
+import { MdChevronRight } from "react-icons/md";
+import { IoMdClose } from "react-icons/io"; // Import icon Close
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-white border border-b-gray-100 w-full px-4 lg:px-6 py-2.5 ">
+    <div className="bg-white border-b-gray-100 w-full px-4 lg:px-6 py-2.5">
       <div className="flex flex-wrap justify-between items-center w-full">
         <a className="flex items-center">
           <img
@@ -22,7 +24,7 @@ export default function Header() {
           >
             <div className="w-full flex items-center justify-center gap-3">
               <img src={call3} alt="call3" />
-              <p> Hotline:096 859 68 59</p>
+              <p className="whitespace-nowrap">Hotline : 096 859 68 59</p>
             </div>
           </button>
           <button
@@ -33,18 +35,23 @@ export default function Header() {
             aria-expanded={isOpen ? "true" : "false"}
           >
             <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-[36px] h-[36px]"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3 5h14a1 1 0 010 2H3a1 1 0 110-2zm0 4h14a1 1 0 010 2H3a1 1 0 110-2zm0 4h14a1 1 0 010 2H3a1 1 0 110-2z"
-                clipRule="evenodd"
-              />
-            </svg>
+            {/* Thay đổi giữa hamburger và dấu X */}
+            {isOpen ? (
+              <IoMdClose className="w-[36px] h-[36px]" />
+            ) : (
+              <svg
+                className="w-[36px] h-[36px]"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 5h14a1 1 0 010 2H3a1 1 0 110-2zm0 4h14a1 1 0 010 2H3a1 1 0 110-2zm0 4h14a1 1 0 010 2H3a1 1 0 110-2z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            )}
           </button>
         </div>
         <div
@@ -52,46 +59,51 @@ export default function Header() {
           id="mobile-menu"
         >
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-            <li>
+            <li className="flex items-center justify-between w-full">
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal rounded md:p-0 whitespace-nowrap"
                 aria-current="page"
               >
                 Trang chủ
               </a>
+              <MdChevronRight size={30} className="block lg:hidden" />
             </li>
-            <li>
+            <li className="flex items-center justify-between w-full">
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal rounded md:p-0 whitespace-nowrap"
               >
                 Về chúng tôi
               </a>
+              <MdChevronRight size={30} className="block lg:hidden" />
             </li>
-            <li>
+            <li className="flex items-center justify-between w-full">
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal rounded md:p-0 whitespace-nowrap"
               >
                 Dịch vụ
               </a>
+              <MdChevronRight size={30} className="block lg:hidden" />
             </li>
-            <li>
+            <li className="flex items-center justify-between w-full">
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal rounded md:p-0 whitespace-nowrap"
               >
                 Tuyển dụng
               </a>
+              <MdChevronRight size={30} className="block lg:hidden" />
             </li>
-            <li>
+            <li className="flex items-center justify-between w-full">
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal  rounded   md:p-0 "
+                className="block py-2 pr-4 pl-3 text-black text-[1rem] font-normal rounded md:p-0 whitespace-nowrap"
               >
                 Liên hệ
               </a>
+              <MdChevronRight size={30} className="block lg:hidden" />
             </li>
           </ul>
         </div>

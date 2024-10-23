@@ -6,7 +6,12 @@ import { FiMapPin } from "react-icons/fi";
 
 import leftt from "../../assets/images/leftt.svg";
 import rightt from "../../assets/images/rightt.svg";
-
+import pc_01 from "../../assets/images/pc_01.png";
+import mobi01 from "../../assets/images/mobi01.png";
+import pc02 from "../../assets/images/pc02.png";
+import mobi02 from "../../assets/images/mobi02.png";
+import pc03 from "../../assets/images/pc03.png";
+import mobi03 from "../../assets/images/mobi03.png";
 const testimonials = [
   {
     text: "Dịch vụ phần mềm tuyệt vời",
@@ -25,18 +30,18 @@ const testimonials = [
     name: "Vũ Hồng Quyền",
     position: "Trưởng phòng kỹ thuật-Keyavo",
     location: "Thanh Xuân - Hà Nội",
-    imageMobile: tuanle_mo,
-    imageDesktop: tuanle_pc,
+    imageMobile: mobi01,
+    imageDesktop: pc_01,
   },
   {
     text: "Hệ thống quản lý dễ dàng",
     content:
       "Chúng tôi rất hài lòng với các giải pháp công nghệ mà Bầu Trời Xanh cung cấp.Hệ thống theo dõi và quản lý quy trình sản xuất nông sản của chúng tôi đã trở nên mình bạch và dễ dàng hơn bao giờ hết, đồng thời giúp đáp ứng các tiêu chuẩn an toàn vệ sinh thực phẩm",
-    name: "Nguyễn Thị Nhung",
+    name: "Trần Văn Bạch",
     position: "Chủ trang trại nông nghiệp sạch",
     location: "Đà Lạt - Lâm Đồng",
-    imageMobile: tuanle_mo,
-    imageDesktop: tuanle_pc,
+    imageMobile: mobi02,
+    imageDesktop: pc02,
   },
   {
     text: "Giải pháp phát triển toàn diện",
@@ -45,8 +50,8 @@ const testimonials = [
     name: "Vũ Hoàng Nam",
     position: "Nhà phát triển ứng dụng di động",
     location: "Cầu Giấy - Hà Nội",
-    imageMobile: tuanle_mo,
-    imageDesktop: tuanle_pc,
+    imageMobile: mobi03,
+    imageDesktop: pc03,
   },
 
   // Add more testimonials as needed
@@ -69,7 +74,7 @@ export default function FeedBack() {
 
   return (
     <div className="w-full bg-[#f8ffff]">
-      <div className="container w-full mx-auto p-3 flex flex-col gap-4 lg:flex-row lg:gap-3 lg:mt-10">
+      <div className="container w-full mx-auto p-3 flex flex-col gap-4 lg:flex-row lg:gap-3 lg:pt-7">
         <div className="flex flex-col gap-6 w-full shadow-custom1 rounded-[8px] bg-white px-[1.5rem] py-[1rem] h-auto lg:w-3/12">
           <div>
             <p className="text-[#27C6FF] font-semibold text-[2.25rem]">
