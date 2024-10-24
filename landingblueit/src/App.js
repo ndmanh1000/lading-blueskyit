@@ -14,6 +14,8 @@ import Contact from "./component/Contact/Contact";
 import News from "./component/Footer/News/News";
 import Footer from "./component/Footer/News/Footer/Footer";
 import footer_pc from "../src/assets/images/footer_pc.png";
+import { Outlet } from "react-router-dom";
+import Home from "./component/Home/Home";
 
 function App() {
   return (
@@ -22,25 +24,9 @@ function App() {
         <TopHead />
         <Header />
       </div>
-
-      <div className=" w-full p-3">
-        <Banner />
+      <div>
+        <Outlet />
       </div>
-      <Partner />
-      <WeAre />
-      <div className="mt-6 lg:mt-12">
-        <div className="border border-b-[#E2E2E2]  container mx-auto"></div>
-        <Benefit />
-        <div className="border border-b-[#E2E2E2] container mx-auto"></div>
-      </div>
-      <Servic />
-      <Project />
-      <Procedure />
-      <Technology />
-      <FeedBack />
-      <Staff />
-      <Contact />
-
       <News />
     </div>
   );

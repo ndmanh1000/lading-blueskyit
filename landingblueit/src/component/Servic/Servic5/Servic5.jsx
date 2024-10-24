@@ -22,7 +22,11 @@ export default function Servic5() {
         <div>
           <ul className="w-full pl-4 text-[1rem] font-normal lg:h-[10rem]">
             <li className="flex  gap-3 w-full h-auto bg-white rounded-[8px] hover:bg-blue-sky-gradient4 px-[0.75rem] py-[0.5rem]">
-              <img src={check2} alt="check2" />
+              <img
+                src={check2}
+                alt="check2"
+                className="relative lg:top-[-25px] top-[-37px]"
+              />
               <p>
                 Chúng tôi cung cấp các giải pháp giúp tạo ra giao diện người
                 dùng, trải nghiệm sử dụng mượt mà và sáng tạo, tối ưu hóa sự

@@ -18,7 +18,7 @@ export default function Banner() {
         backgroundImage: `url(${bg_lg})`,
       }}
     >
-      <div className="p-1 flex flex-col gap-4 items-center md:flex-row lg:flex-row w-full lg:px-6">
+      <div className="p-1 flex flex-col gap-4 items-center md:flex-col lg:flex-row w-full lg:px-6">
         <div className=" h-auto flex flex-col gap-4 lg:gap-6 p-2 text-white relative lg:left-[70px]">
           <div className="lg:w-[45rem] w-[22rem]">
             <p>CHÀO MỪNG BẠN ĐẾN VỚI BLUESKYIT</p>

@@ -73,7 +73,7 @@ export default function PartnerBody() {
   }, []);
 
   return (
-    <div className="container mx-auto p-3 flex flex-col items-center justify-center lg:flex-row gap-4 w-full">
+    <div className="container mx-auto p-3 flex flex-col items-center justify-center md:flex-row md:w-full lg:flex-row gap-4 w-full">
       <div className="grid grid-cols-2 w-full items-center justify-center gap-[1rem] container ">
         <div className="shadow-custom rounded-[20px] bg-white  w-[11.2rem] h-[14.875rem] lg:w-[21.375rem] lg:h-[18.25rem] gap-4 flex flex-col items-center justify-start p-2">
           <img
@@ -128,12 +128,12 @@ export default function PartnerBody() {
           </p>
         </div>
       </div>
-      <div className=" relative rounded-[16px] bg-blue-sky-gradient3 lg:justify-start w-[23.875rem] h-[23.5rem] lg:w-full lg:h-[38rem]   ">
+      <div className=" relative rounded-[16px] bg-blue-sky-gradient3 lg:justify-start w-[23.875rem] md:h-[31rem] h-[23.5rem] lg:w-full lg:h-[38rem]   ">
         <div className="relative -z-10 w-full">
           <img
             src={teacher}
             alt="2"
-            className="rounded-[16px] w-[23.875rem] h-[23.5rem] lg:w-full object-cover lg:h-[38rem]"
+            className="rounded-[16px] w-[23.875rem] md:h-[31rem] h-[23.5rem] lg:w-full object-cover lg:h-[38rem] "
           />
         </div>
         <div className="absolute bottom-4 left-4 text-white">

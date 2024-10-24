@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full bg-white text-[#1375B7] lg:w-full lg:rounded-[40px] lg:mx-auto rounded px-[1.5rem] lg:flex-row lg:items-center lg:justify-between py-[0.75rem] flex flex-col items-center justify-center gap-4">
+      <div className="w-full bg-white text-[#1375B7] lg:w-full relative lg:bottom-[-60px] lg:rounded-[40px] lg:mx-auto rounded px-[1.5rem] lg:flex-row lg:items-center lg:justify-between py-[0.75rem] flex flex-col items-center justify-center gap-4">
         <div className="flex items-start w-full gap-3">
           <p>Chính sách bảo mật</p>
           <p>Điều khoản</p>

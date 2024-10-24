@@ -224,7 +224,6 @@ export default function News() {
           </div>
         </div>
         <div className="border border-b-[#FAFAFA] w-full mx-auto"></div>
-
         <Footer />
       </div>
     </div>

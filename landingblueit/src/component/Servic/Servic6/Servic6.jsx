@@ -23,7 +23,11 @@ export default function Servic6() {
         <div>
           <ul className="w-full pl-4 text-[1rem] font-normal lg:h-[10rem]">
             <li className="flex  gap-3 w-full h-auto bg-white rounded-[8px] hover:bg-blue-sky-gradient4 px-[0.75rem] py-[0.5rem]">
-              <img src={check2} alt="check2" />
+              <img
+                src={check2}
+                alt="check2"
+                className="relative lg:top-[-37px] top-[-60px]"
+              />
               <p>
                 Chúng tôi cung cấp giải pháp này đảm bảo hệ thống luôn hoạt động
                 ổn định, xử lý sự cố kịp thời và cung cấp hỗ trợ kỹ thuật liên
